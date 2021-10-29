@@ -39,7 +39,7 @@ while fim_de_jogo == 0:
             print("\nDigite um jogador válido!!!")
 
     if(jg =="1"):
-        valor = input("\nCaso o jogador esteja perdendo pontos de vida digite '-' antes do valor.\nQuantos pontos ?")
+        valor = input("\nCaso o jogador esteja perdendo pontos de vida digite '-' antes do valor.\nQuantos pontos?")
         pts = int(valor)
         HPJ1 = HPJ1+pts
         a = 0
@@ -48,7 +48,7 @@ while fim_de_jogo == 0:
             fim_de_jogo = 1
 
     elif(jg == "2"):
-        valor = input("\nCaso o jogador esteja perdendo pontos de vida digite '-' antes do valor.\nQuantos pontos ?")
+        valor = input("\nCaso o jogador esteja perdendo pontos de vida digite '-' antes do valor.\nQuantos pontos?")
         pts = int(valor)
         HPJ2 = HPJ2+pts
         a = 0
